@@ -51,10 +51,10 @@ importers:
 
   packages/example:
     dependencies:
-      '@sairinjs/core':
+      '@y1feng200156/sairin-core':
         specifier: workspace:*
         version: link:../core
-      '@sairinjs/sairin-theme-minimal':
+      '@y1feng200156/sairin-theme-minimal':
         specifier: workspace:*
         version: link:../sairin-theme-minimal
       next:
@@ -83,12 +83,12 @@ importers:
         specifier: ^1.10.7
         version: 1.11.19
     devDependencies:
-      '@sairinjs/core':
-        specifier: workspace:*
-        version: link:../core
       '@types/react':
         specifier: ^17.0.39
         version: 17.0.90
+      '@y1feng200156/sairin-core':
+        specifier: workspace:*
+        version: link:../core
       autoprefixer:
         specifier: ^10.4.2
         version: 10.4.23(postcss@8.5.6)

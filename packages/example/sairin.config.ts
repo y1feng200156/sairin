@@ -1,6 +1,6 @@
 // theme
-import { SairinConfig } from "@sairinjs/core";
-import BlogTheme from "@sairinjs/sairin-theme-minimal";
+import { SairinConfig } from "@y1feng200156/sairin-core";
+import BlogTheme from "@y1feng200156/sairin-theme-minimal";
 
 export default {
   siteConfig: {
